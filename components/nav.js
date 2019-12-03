@@ -6,7 +6,7 @@ const links = [
    { href: '/', label: 'Home', needPrefix: true },
    { href: '/robots', label: 'Robots', needPrefix: true },
    { href: '/about', label: 'About', needPrefix: true },
-   { href: 'https://github.com/nipapan/robocool-next-ssr', label: 'GitHub', as: 'https://github.com/nipapan/robocool-next-ssr', needPrefix: false },
+   { href: 'https://github.com/nipapan/robocool-nextjs-ssr', label: 'GitHub', as: 'https://github.com/nipapan/robocool-nextjs-ssr', needPrefix: false },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
